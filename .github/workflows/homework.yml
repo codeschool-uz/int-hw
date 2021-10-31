@@ -12,7 +12,7 @@ jobs:
       - name: Checkout the repository
         uses: actions/checkout@v2
         with:
-          repository: codeschooluz/Pythonint
+          repository: codeschooluz/python-int
           path: test
       - name: Install dependencies
         uses: actions/setup-python@v2
